@@ -122,6 +122,6 @@ jobs:
 
       - name: Publish to TestPyPI via OIDC
         if: vars.ENABLE_PYPI_PUBLISH == 'true'
-        uses: pypa/gh-action-pypi-publish@f8c70e705ffc13c3b4d1221169b84f12a75d6ca8 # v1.8.8
+        uses: pypa/gh-action-pypi-publish@7245906fb61fa33a13554f9d5fb856fe61758086 # v1.14.3
         with:
           repository-url: https://test.pypi.org/legacy/
